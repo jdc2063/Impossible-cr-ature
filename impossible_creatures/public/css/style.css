@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.endpoint_table {
+    margin: 30px;
+}
+
+.endpoint {
+    height: 40px;
+    text-align: center;    
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 10% 20% 30% 20% 20%;
+}
+
+.title_array {
+    background-color: rgb(129, 129, 129);
+}
+
+.gray_back {
+    background-color: rgb(219, 218, 218);
+}
+
+.type {
+    grid-column: 1;
+}
+
+.url {
+    grid-column: 2;
+}
+
+.parametre {
+    grid-column: 3;
+}
+
+.response {
+    grid-column: 4;
+}
+
+.description {
+    grid-column: 5;
+}
